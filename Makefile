@@ -19,7 +19,7 @@ OBJCOPY	= $(CROSS_COMPILE)objcopy
 OBJDUMP	= $(CROSS_COMPILE)objdump
 
 
-CFLAGS	:= -Wall 
+CFLAGS	:= -Wall -D_GNU_SOURCE
 LDFLAGS := 
 
 LIBS_CFLAGS  := $(CFLAGS)
